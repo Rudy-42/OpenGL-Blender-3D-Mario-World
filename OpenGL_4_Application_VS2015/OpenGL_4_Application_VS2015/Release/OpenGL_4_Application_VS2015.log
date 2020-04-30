@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+LINK : fatal error C1001: Internal compiler error.
+  (compiler file 'd:\agent\_work\4\s\src\vctools\Compiler\Utc\src\p2\main.c', line 182)
+   To work around this problem, try simplifying or changing the program near the locations listed above.
+  If possible please provide a repro here: https://developercommunity.visualstudio.com 
+  Please choose the Technical Support command on the Visual C++ 
+   Help menu, or open the Technical Support help file for more information
+    link!InvokeCompilerPass()+0x340ea
+    link!InvokeCompilerPass()+0x25b5b
+    link!InvokeCompilerPass()+0x25a60
+    link!InvokeCompilerPass()+0x32ebb
+  
+  
+LINK : fatal error LNK1000: Internal error during IMAGE::BuildImage
